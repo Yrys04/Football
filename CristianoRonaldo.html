@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristiano Ronaldo - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            background: #222;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #FFD700;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        nav ul li a:hover {
+            color: #fff;
+        }
+        #hero {
+            padding: 10px 10px;
+            background: url('') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        h2 {
+            color: #FFD700;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        .translation {
+            font-size: 14px;
+            color: #BBB;
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .image-container img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            margin: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.5);
+        }
+        footer {
+            background: #222;
+            padding: 10px;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>CR7</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#career">Career</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <h2>Cristiano Ronaldo</h2>
+        <p>"Your love makes me strong, your hate makes me unstoppable."</p>
+        <p class="translation">"Ваша любовь делает меня сильным, ваша ненависть делает меня неудержимым."</p>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>Cristiano Ronaldo is a Portuguese footballer, considered one of the greatest of all time...</p>
+        <p class="translation">Криштиану Роналду — португальский футболист, считающийся одним из величайших за всю историю...</p>
+    </section>
+    
+    <section id="career">
+        <h2>Career</h2>
+        <p>Clubs: Sporting CP, Manchester United, Real Madrid, Juventus, Al Nassr.</p>
+        <p class="translation">Клубы: Спортинг КП, Манчестер Юнайтед, Реал Мадрид, Ювентус, Аль-Наср.</p>
+    </section>
+    
+    <section id="awards">
+        <h2>Awards</h2>
+        <p>5 Ballon d'Or, 4 European Golden Shoes, multiple league and Champions League titles.</p>
+        <p class="translation">5 Золотых мячей, 4 Золотые бутсы Европы, многочисленные титулы лиг и Лиги чемпионов.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Follow Cristiano Ronaldo on social media: Instagram, Twitter, Facebook.</p>
+        <p class="translation">Следите за Криштиану Роналду в социальных сетях: Instagram, Twitter, Facebook.</p>
+    </section>
+    
+    <section class="image-container">
+        <img src="cr7.jfif" alt="">
+        <img src="Cristiano Ronaldo, Manchester United.jfif" alt="">
+        <img src="Cristiano Ronaldo_.jfif" alt="">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 CR7 Fan</p>
+    </footer>
+</body>
+</html>
